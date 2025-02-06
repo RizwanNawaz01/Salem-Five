@@ -26,6 +26,10 @@
     background: #003170;
 }
 
+.footer .button {
+    border: none;
+    outline: none;
+}
 
 .footer .text-primary {
     color: #003170;
