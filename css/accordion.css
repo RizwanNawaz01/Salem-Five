@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: FranklinGothicDemi;
+    src: url('../assets/franklin-gothic-demi-regular.ttf');
+}
+
+@font-face {
+    font-family: FranklinGothicDemi;
+    font-weight: bold;
+    src: url('../assets/franklin-gothic-demi-regular.ttf');
+}
+
+.accordion-main .font-family-frank {
+    font-family: FranklinGothicDemi, sans-serif !important;
+}
+
+/* make-your-move */
+.accordion-main .make-your-move {
+    padding-bottom: 30px;
+}
+
+.accordion-main .text-primary {
+    color: #003170;
+}
+
+.accordion-main .make-your-move-section {
+    text-align: center;
+    max-width: 60%;
+    display: block;
+    margin: 30px auto;
+}
+
+.accordion-main .w-100 {
+    width: 100%;
+}
+
+.accordion-main .bg-secondary {
+    background-color: #f6f4ef;
+}
+
+
+.accordion-main .make-your-move-section h3 {
+    font-size: 3em;
+}
+
+.accordion-main .p-0 {
+    padding: 0;
+}
+
+.accordion-main .border-accordion {
+    border: 1px solid #a19f9fa1 !important;
+    padding-left: 0;
+
+}
+
+.accordion-main .border-left-right {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+
+.accordion-main .panel-title a {
+    font-size: 1.5em;
+    color: #003170;
+
+}
+
+.accordion-main #accordion {
+    padding: 4.5rem;
+    padding-left: 2rem;
+
+}
+
+.accordion-main #accordion .collapsed {
+    color: black;
+}
+
+.accordion-main #accordion .panel-title a {
+    font-weight: bold;
+}
+
+.accordion-main #accordion .custom-button {
+    border: 1px solid #FCAF17;
+    padding: 4px;
+    background-color: white;
+    font-weight: bold;
+    color: #003170;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-main #accordion .collapsed img {
+    transform: rotate(180deg);
+}
+
+.accordion-main .panel-default {
+    border: none;
+}
+
+.accordion-main .panel-default>.panel-heading {
+    border: none;
+    background-color: white;
+}
+
+
+.accordion-main .justify-content-between {
+    justify-content: space-between;
+}
+
+.accordion-main .d-flex {
+    display: flex;
+}
+
+
+
+.accordion-main .b-l-0,
+.accordion-main .border-accordion {
+    border-left: 0 !important;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .accordion-main .container {
+        width: 850px;
+    }
+
+    .accordion-main .col-md-7 {
+        width: 58.33333333%;
+        float: left;
+    }
+
+    .accordion-main .col-md-5 {
+        width: 41.66666667%;
+        float: left;
+
+    }
+
+    .accordion-main #accordion {
+        padding: 1.5rem;
+    }
+
+    .accordion-main .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+
+    .landing-page {
+        overflow-x: hidden;
+    }
+
+    .accordion-main .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .accordion-main .panel-body {
+        padding: 3px;
+    }
+
+    .accordion-main .panel-heading {
+        padding: 6px 15px;
+    }
+
+    .accordion-main .panel-title {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .accordion-main .border-accordion {
+        margin: 20px;
+        padding: 0;
+    }
+
+    .accordion-main .border-left-right {
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .accordion-main #accordion {
+        padding: 2.5rem;
+        padding-left: 2rem;
+    }
+
+
+
+    .accordion-main .make-your-move-section p {
+        display: none;
+    }
+
+    .accordion-main .make-your-move-section {
+        max-width: 100%;
+    }
+
+    .accordion-main .make-your-move-section h3 {
+        font-size: 2.5em;
+    }
+
+
+}

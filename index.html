@@ -5,205 +5,219 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salem Five</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/key-features.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body class="landing-page">
-    <div class="container-fluid  bg-secondary hero-section ">
-        <div class="container hero-background-image">
+    <section class="hero-main">
+        <div class="container-fluid  bg-secondary hero-section ">
+            <div class="container hero-background-image">
+                <div class="row">
+                    <div class="col-md-5 hero p-0">
+                        <img src="./assets/logo.svg" alt="" class="hero-image">
+                        <h1 class="font-family-frank hero-heading text-primary">COUNT ON THE POWER OF FIVE</h1>
+                        <p class="hero-paragraph font-weight-400 mt-4">When it comes to big plans, we know a thing
+                            or two about
+                            making them happen.
+                            Whether it’s growing
+                            your home, family, or business, you can count on the Power of Five to get you there.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-relative">
+                <img src="./assets/hero-image.svg" id="hero-image-main" alt="" class="hero-image-main">
+                <img src="./assets/mobile-hero-image.svg" id="mobile-hero-image-main" alt="" class="hero-image-main">
+            </div>
+
+        </div>
+    </section>
+    <section class="features-main">
+        <div class="key-features bg-primary p-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 justify-content-between gap-3  d-flex">
+                        <div class="key-feature">
+                            <img src="./assets/1.svg" title="icon" alt="icon image">
+                            <p><strong>Innovation</strong></p>
+                            <p class="key-feature-para">Cutting-edge technology that simplifies your life</p>
+                        </div>
+
+                        <div class="key-feature">
+                            <img src="./assets/2.svg" title="icon" alt="icon image">
+                            <p><strong>Dedication</strong></p>
+                            <p class="key-feature-para">A belief in personalized care that makes you feel valued</p>
+                        </div>
+                        <div class="key-feature">
+                            <img src="./assets/3.svg" title="icon" alt="icon image">
+                            <p><strong>Community</strong></p>
+                            <p class="key-feature-para">A commitment to the place we call home</p>
+                        </div>
+                        <div class="key-feature">
+                            <img src="./assets/4.svg" title="icon" alt="icon image">
+                            <p><strong>Strength</strong></p>
+                            <p class="key-feature-para">A long history of financial security and stability</p>
+                        </div>
+                        <div class="key-feature">
+                            <img src="./assets/5.svg" title="icon" alt="icon image">
+                            <p><strong>Expertise</strong></p>
+                            <p class="key-feature-para">The knowledge and experience to help you achieve your goals</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="accordion-main">
+        <div class="container make-your-move">
             <div class="row">
-                <div class="col-md-5 hero p-0">
-                    <img src="./assets/logo.svg" alt="" class="hero-image">
-                    <h1 class="font-family-frank hero-heading text-primary">COUNT ON THE POWER OF FIVE</h1>
-                    <p class="hero-paragraph font-weight-400 mt-4">When it comes to big plans, we know a thing
-                        or two about
-                        making them happen.
-                        Whether it’s growing
-                        your home, family, or business, you can count on the Power of Five to get you there.</p>
+                <div class="col-md-12">
+                    <div class=" make-your-move-section">
+                        <h3 class="font-family-frank text-primary">Make Your Move</h3>
+                        <p>We understand the importance of helping customers take their next step. That's why we offer a
+                            wide range
+                            of
+                            services for personal and business banking— to help you reach your financial goals.</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="mobile-relative">
-            <img src="./assets/hero-image.svg" id="hero-image-main" alt="" class="hero-image-main">
-            <img src="./assets/mobile-hero-image.svg" id="mobile-hero-image-main" alt="" class="hero-image-main">
-        </div>
-
-    </div>
-
-    <div class="key-features bg-primary p-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 justify-content-between gap-3  d-flex">
-                    <div class="key-feature">
-                        <img src="./assets/1.svg" alt="" class="">
-                        <p><strong>Innovation</strong></p>
-                        <p class="key-feature-para">Cutting-edge technology that simplifies your life</p>
+                <div class="col-md-12 b-l-0 border-accordion">
+                    <div class="col-md-7 p-0">
+                        <img id="image" src="assets/make-your-move-0.svg" title="accordion"
+                            class="w-100 border-left-right" alt="make-your-move-0.svg">
                     </div>
+                    <div class="col-md-5 p-0">
+                        <div class="panel-group" id="accordion">
+                            <!-- Accordion Item 1 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" class="d-flex justify-content-between"
+                                            data-parent="#accordion"
+                                            onclick="changeImage('assets/make-your-move-0.svg')"
+                                            href="#collapseOne">Mortgage &
+                                            Lending
+                                            <img src="./assets/arrow.svg" alt="arrow">
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>
+                                            Find the perfect solution for your home purchase, refinance, or renovation
+                                            with
+                                            our
+                                            fixed and adjustable rate mortgage options.
+                                        </p>
 
-                    <div class="key-feature">
-                        <img src="./assets/2.svg" alt="" class="">
-                        <p><strong>Dedication</strong></p>
-                        <p class="key-feature-para">A belief in personalized care that makes you feel valued</p>
-                    </div>
-                    <div class="key-feature">
-                        <img src="./assets/3.svg" alt="" class="">
-                        <p><strong>Community</strong></p>
-                        <p class="key-feature-para">A commitment to the place we call home</p>
-                    </div>
-                    <div class="key-feature">
-                        <img src="./assets/4.svg" alt="" class="">
-                        <p><strong>Strength</strong></p>
-                        <p class="key-feature-para">A long history of financial security and stability</p>
-                    </div>
-                    <div class="key-feature">
-                        <img src="./assets/5.svg" alt="" class="">
-                        <p><strong>Expertise</strong></p>
-                        <p class="key-feature-para">The knowledge and experience to help you achieve your goals</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container make-your-move">
-        <div class="row">
-            <div class="col-md-12">
-                <div class=" make-your-move-section">
-                    <h3 class="font-family-frank text-primary">Make Your Move</h3>
-                    <p>We understand the importance of helping customers take their next step. That's why we offer a
-                        wide range
-                        of
-                        services for personal and business banking— to help you reach your financial goals.</p>
-                </div>
-            </div>
-            <div class="col-md-12 b-l-0 border-accordion">
-                <div class="col-md-7 p-0">
-                    <img id="image" src="assets/make-your-move-0.svg" class="w-100 border-left-right" alt="">
-                </div>
-                <div class="col-md-5 p-0">
-                    <div class="panel-group" id="accordion">
-                        <!-- Accordion Item 1 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" class="d-flex justify-content-between"
-                                        data-parent="#accordion" onclick="changeImage('assets/make-your-move-0.svg')"
-                                        href="#collapseOne">Mortgage &
-                                        Lending
-                                        <img src="/assets/arrow.svg" alt="">
-                                    </a>
-                                </h4>
+                                        <div>
+                                            <button class="custom-button">Calculate Your Mortgage Payment <img
+                                                    src="./assets/icon.svg" alt="iconicon"></button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="collapseOne" class="panel-collapse collapse in">
-                                <div class="panel-body">
-                                    <p>
-                                        Find the perfect solution for your home purchase, refinance, or renovation with
-                                        our
-                                        fixed and adjustable rate mortgage options.
-                                    </p>
 
-                                    <div>
-                                        <button class="custom-button">Calculate Your Mortgage Payment <img
-                                                src="./assets/icon.svg" alt=""></button>
+
+                            <!-- Accordion Item 3 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" class="d-flex justify-content-between"
+                                            data-parent="#accordion"
+                                            onclick="changeImage('assets/make-your-move-1.svg')"
+                                            href="#collapseThree">Personal
+                                            Accounts
+                                            <img src="./assets/arrow.svg" alt="arrow">
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>
+                                            Get ready to save with our personal banking solutions. From everyday
+                                            checking
+                                            and savings accounts to longer-term money market, CD, or retirement
+                                            accounts,
+                                            we're on your side.
+                                        </p>
+                                        <div>
+                                            <button class="custom-button">Explore Your Account Options <img
+                                                    src="./assets/icon.svg" alt="icon"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Accordion Item 4 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" class="d-flex justify-content-between"
+                                            data-parent="#accordion"
+                                            onclick="changeImage('assets/make-your-move-2.svg')"
+                                            href="#collapseFour">Business
+                                            Banking
+                                            <img src="./assets/arrow.svg" alt="arrow">
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>
+                                            We understand the challenges and rewards of running a small business. Our
+                                            personalized solutions, like flexible accounts, lending, and business
+                                            consultation, can help your business grow.</p>
+                                        <div>
+                                            <button class="custom-button">How Can We Help You?<img
+                                                    src="./assets/icon.svg" alt="icon"></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordion Item 4 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" class="d-flex justify-content-between"
+                                            data-parent="#accordion"
+                                            onclick="changeImage('assets/make-your-move-3.svg')"
+                                            href="#collapseFive">Commercial
+                                            Lending
+                                            <img src="./assets/arrow.svg" alt="arrow">
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Simplify the complexities of business financing, from commercial real estate
+                                            to
+                                            residential
+                                            construction to municipal services.</p>
+                                        <div>
+                                            <button class="custom-button"> Find your Loan<img src="./assets/icon.svg"
+                                                    alt="icon"></button>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-
-                        <!-- Accordion Item 3 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" class="d-flex justify-content-between"
-                                        data-parent="#accordion" onclick="changeImage('assets/make-your-move-1.svg')"
-                                        href="#collapseThree">Personal
-                                        Accounts
-                                        <img src="/assets/arrow.svg" alt="">
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <p>
-                                        Get ready to save with our personal banking solutions. From everyday checking
-                                        and savings accounts to longer-term money market, CD, or retirement accounts,
-                                        we're on your side.
-                                    </p>
-                                    <div>
-                                        <button class="custom-button">Explore Your Account Options <img
-                                                src="./assets/icon.svg" alt=""></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- Accordion Item 4 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" class="d-flex justify-content-between"
-                                        data-parent="#accordion" onclick="changeImage('assets/make-your-move-2.svg')"
-                                        href="#collapseFour">Business
-                                        Banking
-                                        <img src="/assets/arrow.svg" alt="">
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <p>
-                                        We understand the challenges and rewards of running a small business. Our
-                                        personalized solutions, like flexible accounts, lending, and business
-                                        consultation, can help your business grow.</p>
-                                    <div>
-                                        <button class="custom-button">How Can We Help You?<img src="./assets/icon.svg"
-                                                alt=""></button>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Accordion Item 4 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" class="d-flex justify-content-between"
-                                        data-parent="#accordion" onclick="changeImage('assets/make-your-move-3.svg')"
-                                        href="#collapseFive">Commercial
-                                        Lending
-                                        <img src="/assets/arrow.svg" alt="">
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <p>Simplify the complexities of business financing, from commercial real estate to
-                                        residential
-                                        construction to municipal services.</p>
-                                    <div>
-                                        <button class="custom-button"> Find your Loan<img src="./assets/icon.svg"
-                                                alt=""></button>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
-    </div>
-
-
+    </section>
     <footer class="footer bg-primary p-3">
         <div class="container">
             <div class="row  border-bottom-1 pb-2">
@@ -217,11 +231,28 @@
                 </div>
                 <div class="col-md-6">
                     <div class="pull-right d-flex gap-15 pull-sm-right">
-                        <img class="w-25" src="./assets/facebook.svg" alt="">
-                        <img class="w-25" src="./assets/instagram.svg" alt="">
-                        <img class="w-25" src="./assets/linkdin.svg" alt="">
-                        <img class="w-25" src="./assets/x.svg" alt="">
-                        <img class="w-25" src="./assets/youtube.svg" alt="">
+                        <a href="https://www.facebook.com/salemfivebank?speedbump=on" title="Salem Five on Facebook"
+                            aria-label="Salem Five on Facebook">
+                            <i class="fa-brands fa-2x text-white fa-facebook" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="http://www.twitter.com/company/salem-five-bank?speedbump=on" title="Salem Five on x"
+                            aria-label="Salem Five on x">
+                            <i class="fa-brands fa-2x text-white fa-x-twitter" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="http://www.linkedin.com/company/salem-five-bank?speedbump=on"
+                            title="Salem Five on Linkedin" aria-label="Salem Five on Linkedin">
+                            <i class="fa-brands fa-2x text-white fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.youtube.com/SalemFiveBank?speedbump=on" title="Salem Five on Youtube"
+                            aria-label="Salem Five on Youtube">
+                            <i class="fa-brands fa-2x text-white fa-youtube" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/salemfive?speedbump=on" title="Salem Five on Instagram"
+                            aria-label="Salem Five on Instagram">
+                            <i class="fa-brands fa-2x text-white fa-instagram" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -251,12 +282,9 @@
             </div>
         </div>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-
-
 </body>
 
 </html>
