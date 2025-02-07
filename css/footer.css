@@ -9,17 +9,46 @@
 
 @font-face {
     font-family: FranklinGothicDemi;
-    src: url('../assets/franklin-gothic-demi-regular.ttf');
+    src: url('../assets/GeneralSans-Regular.otf');
 }
 
 @font-face {
     font-family: FranklinGothicDemi;
     font-weight: bold;
-    src: url('../assets/franklin-gothic-demi-regular.ttf');
+    src: url('../assets/GeneralSans-Bold.otf');
+}
+
+.footer {
+
+    padding-top: 60px !important;
+}
+
+.footer .custom-font {
+    /* font-family: FranklinGothicDemi; */
+    font-family: Open_Sans, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    max-width: 85%;
+}
+
+.footer .pr-0 {
+    padding-right: 0;
+}
+
+.footer .pl-0 {
+    padding-left: 0;
 }
 
 .footer .font-family-frank {
     font-family: FranklinGothicDemi, sans-serif !important;
+}
+
+.footer .button-anchor {
+    font-weight: bold;
+}
+
+.footer .button-anchor:hover {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .bg-primary {
@@ -68,11 +97,11 @@
 }
 
 .p-2 {
-    padding: 5px 20px;
+    padding: 12px;
 }
 
 .footer .border-radius-2 {
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .footer .pull-right {
@@ -84,7 +113,7 @@
 }
 
 .footer .gap-15 {
-    gap: 15px;
+    gap: 35px;
 }
 
 .footer .ml-15 {
@@ -99,7 +128,7 @@
 
 
 .footer .pb-2 {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 
@@ -125,6 +154,11 @@
     align-items: end;
 }
 
+.footer .row-flex p,
+.footer .row-flex a {
+    font-size: 10px;
+}
+
 .footer ul li a {
     color: white;
 }
@@ -133,10 +167,15 @@
     display: none;
 }
 
+
+footer a {
+    display: inline-block;
+}
+
 @media (min-width:768px) and (max-width:1024px) {
 
     .footer .container {
-        width: 850px;
+        width: 750px;
     }
 
     .footer .col-md-7 {
@@ -210,11 +249,48 @@
     .footer .d-none {
         display: block;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+    }
+
+    .footer .custom-font {
+        /* font-family: FranklinGothicDemi; */
+        font-size: 12px;
+        max-width: 100%;
     }
 
 
     .footer ul li:first-child {
         display: none;
     }
+
+    .footer .button-anchor {
+        display: block;
+        text-align: center;
+    }
+
+    .footer .button-anchor:first-child {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding-top: 30px !important;
+    }
+
+    .footer .col-md-6:first-child {
+        margin-bottom: 40px;
+    }
+
+    .footer .button-anchor i {
+        margin-right: 5px
+    }
+
+    .footer .row-flex p,
+    .footer .row-flex a {
+        font-size: 11px;
+    }
+
+    .footer .custom-font {
+        margin-bottom: 40px;
+    }
+
 }

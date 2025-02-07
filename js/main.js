@@ -1,3 +1,5 @@
-function changeImage(image){
-document.getElementById('image').src=image;
+function changeImage(image,el) {
+    document.getElementById('image').src = image;
+  
 }
+ 

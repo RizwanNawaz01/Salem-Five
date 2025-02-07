@@ -1,12 +1,12 @@
 @font-face {
     font-family: FranklinGothicDemi;
-    src: url('../assets/franklin-gothic-demi-regular.ttf');
+    src: url('../assets/GeneralSans-Regular.otf');
 }
 
 @font-face {
     font-family: FranklinGothicDemi;
     font-weight: bold;
-    src: url('../assets/franklin-gothic-demi-regular.ttf');
+    src: url('../assets/GeneralSans-Bold.otf');
 }
 
 .features-main .font-family-frank {
