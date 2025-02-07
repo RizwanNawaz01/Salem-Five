@@ -109,6 +109,10 @@
     color: black;
 }
 
+.accordion-main.panel-group {
+    margin-bottom: 35px;
+}
+
 /* .accordion-main #accordion .panel-title .accordion-button {
     font-weight: bold;
 } */
